@@ -5,7 +5,7 @@
 /*********/
 @font-face {
 	font-family: 'oldfashionscript';
-	src: url('../fonts/oldfashionscript.otf') format('otf');
+	src: url('../fonts/oldfashionscript.otf');
 	font-weight: normal;
 	font-style: normal;
 
