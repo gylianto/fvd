@@ -4,9 +4,8 @@
 /* FONTS */
 /*********/
 @font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
+	font-family: 'oldfashionscript';
+	src: url('../fonts/oldfashionscript.otf') format('otf');
 	font-weight: normal;
 	font-style: normal;
 
@@ -48,7 +47,7 @@ button:not[disabled], summary {
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:eenfont, sans-serif;
+  font-family:oldfashionscript, sans-serif;
   color:var(--color-text);
   background-color:var(--color-background);
 }
