@@ -47,7 +47,7 @@ button:not[disabled], summary {
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:oldfashionscript, sans-serif;
+  font-family:oldfashionscript;
   color:var(--color-text);
   background-color:var(--color-background);
 }
