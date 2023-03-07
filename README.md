@@ -67,6 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/scale.png" width="375px" alt="scale text">
 
 
+
   Darkmode/Lightmode:
   <img src="readme-images/darkmode-lightmode.gif" width="375px" alt="darkmode/lightmode">
 
