@@ -83,6 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De bovenstaande code is voor dark/lightmode detectie op basis van het systeem wat gebruikt wordt.
   Dit heb ik zelf uitgezet omdat ik de dark/lightmode liever trigger d.m.v. een button.
   <br>
+  <br>
   code:
   <br>
   Hieronder maak ik een css class aan met properties die ik door middel van javascript kan triggeren
