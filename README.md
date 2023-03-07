@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Gylianto Monadjat
 
 **De opdrachten:** [opdracht 1](opdracht1/index.html) en [opdracht 2](opdracht2/index.html)
 
@@ -54,12 +54,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Het veranderen van zwarte naar bruine text:
   <img src="readme-images/changecolor.gif" width="375px" alt="change color gif">
+
   code:
   <img src="readme-images/changecolor.png" width="375px" alt="change color code">
 
 
   Het groter maken van de tekst:
   <img src="readme-images/scale.gif" width="375px" alt="scale text">
+
   code:
   <img src="readme-images/scale.png" width="375px" alt="scale text">
 
@@ -74,6 +76,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Het reveal effect ging wel maar het kon iets smoother misschien:
   <img src="readme-images/reveal.gif" width="375px" alt="reveal text">
+
   code:
   <img src="readme-images/reveal.png" width="375px" alt="reveal code">
 </details>
