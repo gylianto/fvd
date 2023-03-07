@@ -22,7 +22,7 @@
 
 button:not[disabled],
 summary {
-	cursor: pointer;
+cursor: pointer;
 }
 
 /*********************/
@@ -36,12 +36,54 @@ summary {
 	--button-text: #eee;
 }
 
+/* Met de onderstaande code activate je de css voor automatische dark/lightmode detectie
+ik heb dit uitstaan omdat ik het preffereer om een button te hebben waarmee je tussen
+dark en lightmode kan switchen maar ik toon wel dat ik het kan: */
+
+/* @media (prefers-color-scheme: light) {
+    :root {
+		--color-text: #111;
+		--color-background: #eee;
+		--border-color: #111;
+		--button-background: #111;
+		--button-text: #eee;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text: #eee;
+		--color-background: #111;
+		--border-color: #111;
+		--button-background: #eee;
+		--button-text: #111;
+	}
+} */
+
 .dark-mode {
-	--color-background: #111;
 	--color-text: #eee;
+	--color-background: #111;
 	--border-color: #111;
 	--button-background: #eee;
 	--button-text: #111;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+body {
+	font-family: oldfashionscript;
+	color: var(--color-text);
+	background-color: var(--color-background);
+}
+
+/* jouw code */
+body>section {
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
 }
 
 button {
@@ -55,24 +97,6 @@ button {
 	background-color: var(--button-background);
 	color: var(--button-text);
 	cursor: pointer;
-}
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-body {
-	font-family: oldfashionscript;
-	color: var(--color-text);
-	background-color: var(--color-background);
-}
-
-/* jouw code */
-body>section {
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
-	display: flex;
 }
 
 h1 {
@@ -93,6 +117,13 @@ h1 {
 		-webkit-mask-position: left center;
 	}
 }
+
+/* de onderstaande childs zijn alle spans/letters van het logo die ik style */
+/* animation-name: colorchange, scale; Hier voeg ik de twee functions toe
+animation-duration: 10000ms, 10000ms; Hier geef ik per animation aan hoe lang het moet duren
+animation-delay: 5000ms, 11000ms; Hier geef ik per animation aan hoe lang het duurt voordat de animation wordt getriggered
+animation-iteration-count: 1, 1; Hier geef ik aan hoe vaak de animtion uitgevoerd moet worden
+animation-fill-mode: forwards, forwards; Hier gebruik ik "forwards" zo blijft het element in de laatste state van de animation */
 
 body>section>h1>span:nth-child {
 	animation-name: colorchange, scale;
@@ -168,6 +199,7 @@ body>section>h1>span:nth-child(8) {
 
 }
 
+/* Door middel van keyframes en de color property verander ik de tekst kleur */
 @keyframes colorchange {
 	0% {
 		color: var(--color-text);
@@ -178,6 +210,7 @@ body>section>h1>span:nth-child(8) {
 	}
 }
 
+/* Door middel van keyframes en de font-size property verander ik de groote van het logo */
 @keyframes scale {
 	0% {
 		font-size: 4rem;
@@ -187,6 +220,7 @@ body>section>h1>span:nth-child(8) {
 		font-size: 8rem;
 	}
 }
+
 
 @media only screen and (max-width: 600px) {
 	h1 {
@@ -218,3 +252,5 @@ body>section>h1>span:nth-child(8) {
 		}
 	}
 }
+
+
