@@ -54,8 +54,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   Het veranderen van zwarte naar bruine text:
+  <br>
   <img src="readme-images/changecolor.gif" width="375px" alt="change color gif">
-
+  <br>
   code:
   <img src="readme-images/changecolor.png" width="375px" alt="change color code">
 
