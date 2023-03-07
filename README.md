@@ -75,7 +75,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Darkmode/Lightmode:
   <br>
   <img src="readme-images/darkmode-lightmode.gif" width="375px" alt="darkmode/lightmode">
-
+  <br>
+  code:
+  <br>
+  <img src="readme-images/automaticbl.png" width="375px" alt="darkmode/lightmode code">
+  <br>
+  De bovenstaande code is voor dark/lightmode detectie op basis van het systeem wat gebruikt wordt.
+  Dit heb ik zelf uitgezet omdat ik de dark/lightmode liever trigger d.m.v. een button.
+  <br>
+  code:
+  <br>
+  Hieronder maak ik een css class aan met properties die ik door middel van javascript kan triggeren
+  <br>
+  <img src="readme-images/customdarkjs.png" width="375px" alt="darkmode/lightmode css">
+  <br>
+  Hieronder is de js function waar ik body properties verander door element classlist functie toe te voegen:
+  <br>
+  <img src="readme-images/jscustomdark.png" width="375px" alt="darkmode/lightmode js">
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
