@@ -14,9 +14,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. -bron 1-
-  2. -bron 2-
-  3. -...-
+  1. font: https://fontsgeek.com/fonts/Old-Fashion-Script-Regular
+  2. multiple animations on one element: https://stackoverflow.com/questions/33004919/chaining-multiple-css-animations
+  3. webkit mask reveal effect: https://chat.openai.com
 
 
 
@@ -27,15 +27,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je storyboard:
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="storyboard voor opdracht 1">
+  <img src="readme-images/storyboard.png" width="375px" alt="storyboard voor opdracht 1">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil werken aan mijn css animation skills omdat ik hier niet veel van weet
+  - Ik wil gebruik maken voor global variables in mijn website omdat ik dat ook niet vaak doe
  
 </details>
 
@@ -48,19 +46,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
 
+  <img src="readme-images/loropiana.gif" width="375px" alt="loro piana">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  Het veranderen van zwarte naar bruine text:
+  <img src="readme-images/changecolor.gif" width="375px" alt="change color gif">
+  code:
+  <img src="readme-images/changecolor.png" width="375px" alt="change color code">
+
+    Het groter maken van de tekst:
+  <img src="readme-images/scale.gif" width="375px" alt="scale text">
+  code:
+  <img src="readme-images/scale.png" width="375px" alt="scale text">
+
+    Darkmode/Lightmode:
+  <img src="readme-images/darkmode-lightmode.gif" width="375px" alt="darkmode/lightmode">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  Het reveal effect ging wel maar het kon iets smoother misschien:
+  <img src="readme-images/reveal.gif" width="375px" alt="reveal text">
+  code:
+  <img src="readme-images/reveal.png" width="375px" alt="reveal code">
 </details>
 
 

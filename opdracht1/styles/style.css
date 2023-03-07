@@ -45,6 +45,9 @@ summary {
 }
 
 button {
+	position: absolute;
+	top: 40px;
+	left: 40px;
 	padding: 15px;
 	font-size: 1.5rem;
 	border: 3px solid var(--border-color);
