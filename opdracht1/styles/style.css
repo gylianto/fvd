@@ -11,46 +11,207 @@
 
 }
 
-
-
-
-
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
-button:not[disabled], summary {
+button:not[disabled],
+summary {
 	cursor: pointer;
 }
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
+	--border-color: #111;
+	--button-background: #111;
+	--button-text: #eee;
 }
 
+.dark-mode {
+	--color-background: #111;
+	--color-text: #eee;
+	--border-color: #111;
+	--button-background: #eee;
+	--button-text: #111;
+}
 
-
+button {
+	padding: 15px;
+	font-size: 1.5rem;
+	border: 3px solid var(--border-color);
+	border-radius: 10px;
+	background-color: var(--button-background);
+	color: var(--button-text);
+	cursor: pointer;
+}
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
 body {
-  font-family:oldfashionscript;
-  color:var(--color-text);
-  background-color:var(--color-background);
+	font-family: oldfashionscript;
+	color: var(--color-text);
+	background-color: var(--color-background);
 }
 
 /* jouw code */
+body>section {
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
 
+h1 {
+
+	font-size: 4rem;
+	padding: 1rem;
+	display: flex;
+	animation: reveal 5s linear;
+	color: var(--color-text);
+}
+
+@keyframes reveal {
+	0% {
+		-webkit-mask: linear-gradient(to right, rgb(0, 0, 0) 50%, transparent 0) right center / 200% 100%;
+	}
+
+	100% {
+		-webkit-mask-position: left center;
+	}
+}
+
+body>section>h1>span:nth-child {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:nth-child(1) {
+	animation-name: colorchange, scale;
+	animation-duration: 1000ms, 1000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:nth-child(2) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:nth-child(3) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:nth-child(4) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:not(:nth-of-type(5)) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+
+}
+
+body>section>h1>span:nth-child(6) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:nth-child(7) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+}
+
+body>section>h1>span:nth-child(8) {
+	animation-name: colorchange, scale;
+	animation-duration: 10000ms, 10000ms;
+	animation-delay: 5000ms, 11000ms;
+	animation-iteration-count: 1, 1;
+	animation-fill-mode: forwards, forwards;
+
+}
+
+@keyframes colorchange {
+	0% {
+		color: var(--color-text);
+	}
+
+	100% {
+		color: #A2441A;
+	}
+}
+
+@keyframes scale {
+	0% {
+		font-size: 4rem;
+	}
+
+	100% {
+		font-size: 8rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+
+		font-size: 2rem;
+		padding: 1rem;
+		display: flex;
+		animation: reveal 5s linear;
+		color: var(--color-text);
+	}
+
+	button {
+		padding: 15px;
+		font-size: 1rem;
+		border: 3px solid var(--border-color);
+		border-radius: 10px;
+		background-color: var(--button-background);
+		color: var(--button-text);
+		cursor: pointer;
+	}
+
+	@keyframes scale {
+		0% {
+			font-size: 2rem;
+		}
+
+		100% {
+			font-size: 4rem;
+		}
+	}
+}
