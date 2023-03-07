@@ -52,6 +52,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
+
   Het veranderen van zwarte naar bruine text:
   <img src="readme-images/changecolor.gif" width="375px" alt="change color gif">
 
