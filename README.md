@@ -58,18 +58,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/changecolor.gif" width="375px" alt="change color gif">
   <br>
   code:
+  <br>
   <img src="readme-images/changecolor.png" width="375px" alt="change color code">
 
 
   Het groter maken van de tekst:
+  <br>
   <img src="readme-images/scale.gif" width="375px" alt="scale text">
-
+  <br>
   code:
+  <br>
   <img src="readme-images/scale.png" width="375px" alt="scale text">
 
 
 
   Darkmode/Lightmode:
+  <br>
   <img src="readme-images/darkmode-lightmode.gif" width="375px" alt="darkmode/lightmode">
 
 
@@ -78,9 +82,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   Het reveal effect ging wel maar het kon iets smoother misschien:
+  <br>
   <img src="readme-images/reveal.gif" width="375px" alt="reveal text">
-
+  <br>
   code:
+  <br>
   <img src="readme-images/reveal.png" width="375px" alt="reveal code">
 </details>
 
