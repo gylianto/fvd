@@ -86,7 +86,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <br>
   code:
   <br>
-  Hieronder maak ik een css class aan met properties die ik door middel van javascript kan triggeren
+  Hieronder maak ik een css class aan met properties die ik door middel van javascript kan triggeren:
   <br>
   <img src="readme-images/customdarkjs.png" width="375px" alt="darkmode/lightmode css">
   <br>
